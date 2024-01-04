@@ -1,3 +1,27 @@
-.entries{
-    background-color: white;
+.container{
+  background-image: url('../../assets/papyrusBackground.jpg');
+  background-size: 700px;
+  display:inline-block;
+  margin-left: 16.5vw;
+  margin-right: 16.5vw;
+  margin-top: 7.5vh;
+  height: 500px;
+  .date{
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 24pt;
+
+ 
   }
+  .entries{
+    margin-left: 8.25vw;
+    margin-right: 8.25vw;
+    .entry{
+      padding: 10px;
+    }
+  }
+}
+
